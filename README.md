@@ -1,14 +1,10 @@
 # Spam-prediction
 Machine learning project to predict spam emails using keywords from the spambase dataset from UCI
-
-
 Dataset: https://archive.ics.uci.edu/ml/datasets/spambase
 
 
-I will demonstrate the implementation of several libraries in scikit-learn to calculate
 
-
-# Breakdown of ananlyses / workflow:
+# Breakdown of workflow:
 1. Load and split dataset at random into 80% training and 20% testing
 2. Create a bootstrap n=1000 and vary the size of columns (p), and choose the value that results in the lowest cross-validation error 
 3. After determing p # of columns, I will train a decision tree classifier on the bootstrap sample, using the default depth = 6

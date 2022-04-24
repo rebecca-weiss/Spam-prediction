@@ -10,4 +10,5 @@ Dataset: https://archive.ics.uci.edu/ml/datasets/spambase
 3. After determing p # of columns, I will train a decision tree classifier on the bootstrap sample, using the default depth = 6
 4. Repeat these calculations to generate T ∈ {1, 50, 100, 150, 200, 300, 400} trees and evaluate on the training set.
 5. Determine train and test error, F1 score, and AUC by varying T in the range {1, 50, 100, 150, 200, 300, 400}
-6. Train a Random Forest algorithm with 10, 50, and 100 decision trees and report similar metrics on both the training and testing sets, and then report the top 10 features having the most influence on the model
+6. Train a Random Forest algorithm with 10, 50, and 100 decision trees and report similar metrics on both the training and testing sets
+7. Report/visualize the top 10 features having the most influence on the model

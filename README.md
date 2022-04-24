@@ -1,8 +1,8 @@
-# Spam-prediction
+## Spam-prediction
 Machine learning project to predict spam emails using keywords from the spambase dataset from UCI
 Dataset: https://archive.ics.uci.edu/ml/datasets/spambase
 
-# Use for analysis
+# Use for this analysis
 One application of these results can be in company promotional e-mails, in order to avoid being misclassfied as spam. Using some of the concepts in machine learning I apply to this repository, a company with this dataset could identify the important features in classifying an e-mail as spam, and consider that when crafting the advertisements and emails sent to their customer base. 
 
 
